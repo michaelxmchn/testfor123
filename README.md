@@ -13,7 +13,7 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 [演示](https://chat-gpt-next-web.vercel.app/) / [反馈](https://github.com/michaelxmchn/newgpt/issues) / [QQ 群](https://user-images.githubusercontent.com/16968934/233002565-139daa1a-eb3a-4a12-ac37-6418e7a15d36.png) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F%2Fnewgpt&env=OPENAI_API_KEY&env=CODE&project-name=newgpt&repository-name=newgpt)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/michaelxmchn/newgpt)
 
@@ -79,7 +79,7 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F%2Fnewgpt&env=OPENAI_API_KEY&env=CODE&project-name=newgpt&repository-name=newgpt), remember that `CODE` is your page password;
 3. Enjoy :)
 
 ## FAQ
@@ -179,12 +179,12 @@ yarn dev
 ### Docker (Recommended)
 
 ```shell
-docker pull /chatgpt-next-web
+docker pull /newgpt
 
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY="sk-xxxx" \
    -e CODE="your-password" \
-   /chatgpt-next-web
+   /newgpt
 ```
 
 You can start service behind a proxy:
@@ -194,13 +194,13 @@ docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY="sk-xxxx" \
    -e CODE="your-password" \
    -e PROXY_URL="http://localhost:7890" \
-   /chatgpt-next-web
+   /newgpt
 ```
 
 ### Shell
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com//ChatGPT-Next-Web/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com//newgpt/main/scripts/setup.sh)
 ```
 
 ## Screenshots
