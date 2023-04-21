@@ -29,7 +29,7 @@ const makeRequestParam = (
 
   const modelConfig = { ...useChatStore.getState().config.modelConfig };
 
-  // @yidadaa: wont send max_tokens, because it is nonsense for Muggles
+  // @: wont send max_tokens, because it is nonsense for Muggles
   // @ts-expect-error
   delete modelConfig.max_tokens;
 
